@@ -17,3 +17,11 @@ public:
     Mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai) {
         // kode di sini dijalankan setelah variabel diinisialisasi
     };
+
+  // membuat destructor dari class mahasiswa
+    ~Mahasiswa() {
+        cout << "ID    : " << id << endl;
+        cout << "Nama  : " << nama << endl;
+        cout << "Nilai : " << nilai << endl;
+    }
+};
